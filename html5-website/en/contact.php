@@ -1,0 +1,361 @@
+<?php
+session_start();
+if (empty($_SESSION["csrf_token"])) {
+    $_SESSION["csrf_token"] = bin2hex(random_bytes(32));
+}
+$csrf = $_SESSION["csrf_token"];
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NeoTechnology Solutions</title>
+    <meta name="description" content="Request a decision session or send an inquiry. We respond within one business day.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230f172a' width='100' height='100' rx='20'/><text x='50' y='68' font-size='50' font-family='system-ui' font-weight='bold' fill='%2338bdf8' text-anchor='middle'>N</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">N</div>
+                    <span class="logo-text">NeoTechnology Solutions</span>
+                </a>
+                <nav class="nav">
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="how-we-work.html" class="nav-link">How We Work</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="contact.php" class="nav-link active">Contact</a></li>
+                        <li><a href="contact.php" class="nav-cta">Request a Session</a></li>
+                    </ul>
+                    <div class="lang-switch">
+                        <a href="contact.php" class="lang-btn active">EN</a>
+                        <a href="../ar/contact.php" class="lang-btn">عربي</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="page-hero-subtitle">Request a decision session or send an inquiry. We respond within one business day.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h2>Let's Talk</h2>
+                        <p>Start with a 90-minute decision session. We'll analyze your situation and provide a clear recommendation — or tell you if we're not the right fit.</p>
+
+                        <div class="contact-methods">
+                            <a href="mailto:contact@neotechnology.solutions" class="contact-method">
+                                <div class="contact-method-icon">&#9993;</div>
+                                <div>
+                                    <div class="contact-method-label">Email</div>
+                                    <div class="contact-method-value">contact@neotechnology.solutions</div>
+                                </div>
+                            </a>
+                            <a href="tel:+13075073999" class="contact-method">
+                                <div class="contact-method-icon">&#9742;</div>
+                                <div>
+                                    <div class="contact-method-label">Phone</div>
+                                    <div class="contact-method-value" dir="ltr">+1 (307) 507-3999</div>
+                                </div>
+                            </a>
+                            <div class="contact-method">
+                                <div class="contact-method-icon">&#128337;</div>
+                                <div>
+                                    <div class="contact-method-label">Response Time</div>
+                                    <div class="contact-method-value">Within 1 business day</div>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-method-icon">&#128197;</div>
+                                <div>
+                                    <div class="contact-method-label">Business Hours</div>
+                                    <div class="contact-method-value">Sun-Thu, 9 AM - 6 PM (Riyadh)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- What to Expect -->
+                        <div style="margin-top: 2rem; padding: 1.5rem; background: var(--slate-100); border-radius: 0.75rem;">
+                            <h4 style="margin-bottom: 1rem;">What to Expect</h4>
+                            <ol style="margin-bottom: 0; padding-left: 1.25rem;">
+                                <li><strong>Same day:</strong> We review your request and assess fit</li>
+                                <li><strong>Within 1 day:</strong> We respond with available times or follow-up questions</li>
+                                <li><strong>Decision Session:</strong> 90-minute focused discussion about your situation</li>
+                                <li><strong>Next steps:</strong> If appropriate, we provide a proposal for deeper engagement</li>
+                            </ol>
+                            <p style="margin-top: 1rem; margin-bottom: 0; font-size: 0.875rem; color: var(--slate-600);"><strong>No obligation.</strong> The decision session helps both parties determine if our advisory approach fits your needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Intake Form -->
+                    <div class="form-card">
+                        <h3>Request a Decision Session</h3>
+                        <p>Tell us about your situation. We'll respond within one business day.</p>
+
+                        <form action="../forms/submit.php" method="POST" id="intake-form">
+                            <!-- Hidden Fields -->
+                            <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrf); ?>">
+                            <input type="hidden" name="lang" value="en">
+                            <!-- Honeypot - invisible to humans, bots fill it -->
+                            <div style="position: absolute; left: -9999px;" aria-hidden="true">
+                                <label for="website">Website (leave blank)</label>
+                                <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+                            </div>
+
+                            <!-- About You -->
+                            <div class="form-section">
+                                <div class="form-section-title">About You</div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Organization Name <span class="required">*</span></label>
+                                        <input type="text" name="company" class="form-input" required placeholder="Your company or entity name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Contact Name <span class="required">*</span></label>
+                                        <input type="text" name="name" class="form-input" required placeholder="Your full name">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Title / Role</label>
+                                        <input type="text" name="title" class="form-input" placeholder="Your position">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Business Email <span class="required">*</span></label>
+                                        <input type="email" name="email" class="form-input" required placeholder="We'll respond to this address">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" name="phone" class="form-input" placeholder="+966 5xx xxx xxxx">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Industry <span class="required">*</span></label>
+                                        <select name="industry" class="form-select" required>
+                                            <option value="">Select your industry</option>
+                                            <option value="Financial Services & Banking">Financial Services & Banking</option>
+                                            <option value="Healthcare & Pharmaceuticals">Healthcare & Pharmaceuticals</option>
+                                            <option value="Retail & E-commerce">Retail & E-commerce</option>
+                                            <option value="Manufacturing & Industrial">Manufacturing & Industrial</option>
+                                            <option value="Government & Public Sector">Government & Public Sector</option>
+                                            <option value="Technology & Software">Technology & Software</option>
+                                            <option value="Energy & Utilities">Energy & Utilities</option>
+                                            <option value="Real Estate & Construction">Real Estate & Construction</option>
+                                            <option value="Telecommunications">Telecommunications</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- About Your Decision -->
+                            <div class="form-section">
+                                <div class="form-section-title">About Your Decision</div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Decision Type <span class="required">*</span></label>
+                                    <select name="decision_type" class="form-select" required>
+                                        <option value="">What type of technology decision are you facing?</option>
+                                        <option value="Cloud vs. On-Prem / Hybrid">Cloud vs. On-Prem / Hybrid</option>
+                                        <option value="Vendor / Integrator Selection">Vendor / Integrator Selection</option>
+                                        <option value="Compliance Readiness (PDPL + GCC)">Compliance Readiness (PDPL + GCC regulations)</option>
+                                        <option value="Security Baseline + Risk Assessment">Security Baseline + Risk Assessment</option>
+                                        <option value="Monitoring + Backups + DR">Monitoring + Backups + DR (RPO/RTO)</option>
+                                        <option value="Cost Control / Scale Decision">Cost Control / Scale Decision</option>
+                                        <option value="Digital Transformation Strategy">Digital Transformation Strategy</option>
+                                        <option value="ERP / Core Systems Selection">ERP / Core Systems Selection</option>
+                                        <option value="Other">Other (specify in message)</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Timeline <span class="required">*</span></label>
+                                        <select name="timeline" class="form-select" required>
+                                            <option value="">When do you need to decide?</option>
+                                            <option value="Urgent - within 2 weeks">Urgent — Decision needed within 2 weeks</option>
+                                            <option value="Near-term - 1-2 months">Near-term — 1-2 months</option>
+                                            <option value="Planning - 3-6 months">Planning — 3-6 months</option>
+                                            <option value="Exploring - No timeline">Exploring — No fixed timeline</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Current Situation <span class="required">*</span></label>
+                                        <select name="situation" class="form-select" required>
+                                            <option value="">Your current state</option>
+                                            <option value="Greenfield">Greenfield — Starting from scratch</option>
+                                            <option value="Migration">Migration — Moving from existing systems</option>
+                                            <option value="Modernization">Modernization — Upgrading current approach</option>
+                                            <option value="Consolidation">Consolidation — Combining multiple systems</option>
+                                            <option value="Assessment">Assessment — Need to understand current state</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Vendors Involved</label>
+                                        <select name="vendors" class="form-select">
+                                            <option value="">Are you evaluating specific vendors?</option>
+                                            <option value="Yes - Actively evaluating">Yes — Actively evaluating specific vendors</option>
+                                            <option value="Partially - Some in mind">Partially — Have some vendors in mind</option>
+                                            <option value="No - Need help identifying">No — Need help identifying vendors</option>
+                                            <option value="Not applicable">Not applicable</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Budget Range</label>
+                                        <select name="budget" class="form-select">
+                                            <option value="">What's your budget range?</option>
+                                            <option value="Under $50K">Under $50K</option>
+                                            <option value="$50K - $100K">$50K - $100K</option>
+                                            <option value="$100K - $250K">$100K - $250K</option>
+                                            <option value="$250K - $500K">$250K - $500K</option>
+                                            <option value="$500K+">$500K+</option>
+                                            <option value="Not defined yet">Not defined yet</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Link to RFP / Proposal (optional)</label>
+                                    <input type="url" name="link" class="form-input" placeholder="https://...">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Vendor Introductions?</label>
+                                    <select name="intro_request" class="form-select">
+                                        <option value="">Do you want vendor introductions?</option>
+                                        <option value="No, advisory only">No, advisory only</option>
+                                        <option value="Yes, I want introductions (disclosure required)">Yes, I want introductions (disclosure required)</option>
+                                        <option value="Not sure">Not sure</option>
+                                    </select>
+                                    <div class="form-helper">If yes, any referral fees will be <a href="disclosure.html" target="_blank">disclosed in writing</a>.</div>
+                                </div>
+                            </div>
+
+                            <!-- Your Message -->
+                            <div class="form-section">
+                                <div class="form-section-title">Your Message</div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Situation Description <span class="required">*</span></label>
+                                    <textarea name="message" class="form-textarea" required placeholder="Describe your situation, the decision you're facing, and any specific questions. This helps us prepare for our discussion."></textarea>
+                                    <div class="form-helper">100-1000 characters recommended</div>
+                                </div>
+                            </div>
+
+                            <!-- Consent -->
+                            <div class="form-section">
+                                <div class="form-section-title">Consent</div>
+
+                                <div class="form-group">
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="consent" name="consent" value="yes" required>
+                                        <label for="consent" class="form-checkbox-label">
+                                            <strong>I understand this is advisory only.</strong> NeoTechnology Solutions provides analysis, recommendations, and decision frameworks. You do not implement solutions, manage projects, or provide ongoing IT services. I also agree to the <a href="privacy.html" target="_blank">Privacy Policy</a> and consent to being contacted regarding this inquiry.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg form-submit">Submit Request</button>
+
+                            <p class="form-note">By submitting, you agree to our <a href="terms.html">Terms of Use</a>. We respond within one business day (Sunday - Thursday).</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Info Bar -->
+        <section class="section-sm bg-slate-100">
+            <div class="container">
+                <div style="text-align: center;">
+                    <p style="margin-bottom: 0.5rem;"><strong>NeoTechnology Solutions LLC</strong></p>
+                    <p style="margin-bottom: 0; color: var(--slate-600);">Wyoming, United States | contact@neotechnology.solutions | +1 (307) 507-3999</p>
+                    <p style="margin-bottom: 0; color: var(--slate-500); font-size: 0.875rem; margin-top: 0.5rem;">Privacy inquiries: privacy@neotechnology.solutions</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">N</div>
+                        <span class="logo-text">NeoTechnology Solutions</span>
+                    </a>
+                    <p>Independent IT decision consulting for organizations making important technology choices.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Cloud Strategy</a></li>
+                        <li><a href="services.html">Security & Compliance</a></li>
+                        <li><a href="services.html">Vendor Selection</a></li>
+                        <li><a href="services.html">Digital Strategy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="how-we-work.html">How We Work</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="disclosure.html">Disclosure Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; 2026 NeoTechnology Solutions LLC. Wyoming, USA. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                    <a href="#" aria-label="Twitter"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

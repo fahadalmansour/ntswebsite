@@ -1,0 +1,917 @@
+# Arabic Translation for NeoTechnology Solutions Theme
+# Copyright (C) 2024 NeoTechnology Solutions LLC
+# This file is distributed under the same license as the NeoTechnology Solutions theme.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NeoTechnology Solutions 1.0.0\n"
+"Report-Msgid-Bugs-To: info@neotechnology.solutions\n"
+"POT-Creation-Date: 2024-01-16 00:00+0000\n"
+"PO-Revision-Date: 2024-01-16 00:00+0000\n"
+"Last-Translator: NeoTechnology Solutions\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+# Theme Name
+msgid "NeoTechnology Solutions"
+msgstr "نيوتكنولوجي سولوشنز"
+
+# Hero Section
+msgid "Professional IT Consulting"
+msgstr "استشارات تقنية المعلومات الاحترافية"
+
+msgid "Strategic technology guidance for businesses seeking digital transformation and IT excellence."
+msgstr "إرشاد تقني استراتيجي للشركات الساعية للتحول الرقمي والتميز في تقنية المعلومات."
+
+msgid "Request initial discussion"
+msgstr "طلب مناقشة أولية"
+
+msgid "How we work"
+msgstr "كيف نعمل"
+
+# Hero Trust Points
+msgid "Expert Guidance"
+msgstr "إرشاد خبير"
+
+msgid "Strategic IT consulting from experienced professionals"
+msgstr "استشارات تقنية استراتيجية من محترفين ذوي خبرة"
+
+msgid "Custom Solutions"
+msgstr "حلول مخصصة"
+
+msgid "Tailored technology strategies for your business"
+msgstr "استراتيجيات تقنية مصممة خصيصاً لعملك"
+
+msgid "Proven Results"
+msgstr "نتائج مثبتة"
+
+msgid "Track record of successful digital transformations"
+msgstr "سجل حافل بالتحولات الرقمية الناجحة"
+
+# Our Process Section
+msgid "Our Process"
+msgstr "منهجيتنا"
+
+msgid "A proven methodology to deliver exceptional IT consulting results."
+msgstr "منهجية مثبتة لتقديم نتائج استشارية استثنائية في مجال تقنية المعلومات."
+
+msgid "Discovery & Assessment"
+msgstr "الاكتشاف والتقييم"
+
+msgid "We analyze your current IT infrastructure, business goals, and identify opportunities for improvement"
+msgstr "نحلل البنية التحتية الحالية لتقنية المعلومات وأهداف العمل ونحدد فرص التحسين"
+
+msgid "Strategy Development"
+msgstr "تطوير الاستراتيجية"
+
+msgid "Creating a comprehensive technology roadmap aligned with your business objectives"
+msgstr "إنشاء خارطة طريق تقنية شاملة متوافقة مع أهداف عملك"
+
+msgid "Implementation Support"
+msgstr "دعم التنفيذ"
+
+msgid "Guiding your team through the implementation process with hands-on expertise"
+msgstr "توجيه فريقك خلال عملية التنفيذ بخبرة عملية"
+
+msgid "Optimization & Growth"
+msgstr "التحسين والنمو"
+
+msgid "Continuous improvement and scaling your technology infrastructure as your business grows"
+msgstr "التحسين المستمر وتوسيع البنية التحتية التقنية مع نمو عملك"
+
+# Services Section
+msgid "Our Services"
+msgstr "خدماتنا"
+
+msgid "Comprehensive IT consulting services to accelerate your business success."
+msgstr "خدمات استشارية شاملة في تقنية المعلومات لتسريع نجاح أعمالك."
+
+msgid "Cloud & Infrastructure"
+msgstr "السحابة والبنية التحتية"
+
+msgid "Design and implement scalable cloud solutions that drive business growth."
+msgstr "تصميم وتنفيذ حلول سحابية قابلة للتوسع تدفع نمو الأعمال."
+
+msgid "Cloud migration"
+msgstr "الترحيل السحابي"
+
+msgid "Hybrid solutions"
+msgstr "الحلول الهجينة"
+
+msgid "Cost optimization"
+msgstr "تحسين التكاليف"
+
+msgid "Digital Transformation"
+msgstr "التحول الرقمي"
+
+msgid "Modernize your business processes with cutting-edge technology solutions."
+msgstr "تحديث عمليات عملك بحلول تقنية متطورة."
+
+msgid "Process automation"
+msgstr "أتمتة العمليات"
+
+msgid "System integration"
+msgstr "تكامل الأنظمة"
+
+msgid "Data analytics"
+msgstr "تحليل البيانات"
+
+msgid "Cybersecurity"
+msgstr "الأمن السيبراني"
+
+msgid "Protect your business with comprehensive security strategies and solutions."
+msgstr "حماية عملك باستراتيجيات وحلول أمنية شاملة."
+
+msgid "Security audits"
+msgstr "تدقيق الأمان"
+
+msgid "Compliance"
+msgstr "الامتثال"
+
+msgid "Risk management"
+msgstr "إدارة المخاطر"
+
+# Consulting Packages
+msgid "Consulting Packages"
+msgstr "باقات الاستشارات"
+
+msgid "Flexible engagement models tailored to your needs."
+msgstr "نماذج تعاقد مرنة مصممة حسب احتياجاتك."
+
+msgid "Strategic Consulting"
+msgstr "الاستشارات الاستراتيجية"
+
+msgid "Long-term partnership for comprehensive IT strategy, planning, and ongoing guidance for your organization."
+msgstr "شراكة طويلة الأمد لاستراتيجية تقنية شاملة وتخطيط وتوجيه مستمر لمؤسستك."
+
+msgid "Ideal for growing businesses seeking transformation."
+msgstr "مثالي للشركات النامية الساعية للتحول."
+
+msgid "Project-Based Consulting"
+msgstr "الاستشارات القائمة على المشاريع"
+
+msgid "Focused engagement for specific IT initiatives, migrations, or technology implementations."
+msgstr "تعاقد مركز لمبادرات تقنية محددة أو عمليات ترحيل أو تنفيذ تقنيات."
+
+msgid "Clear scope, timeline, and deliverables."
+msgstr "نطاق وجدول زمني ومخرجات واضحة."
+
+# Additional Expertise
+msgid "Additional Expertise"
+msgstr "خبرات إضافية"
+
+msgid "Beyond our core services, we offer specialized consulting in:"
+msgstr "بالإضافة إلى خدماتنا الأساسية، نقدم استشارات متخصصة في:"
+
+msgid "Enterprise Architecture & Design"
+msgstr "هندسة وتصميم المؤسسات"
+
+msgid "Technology Stack Selection"
+msgstr "اختيار التقنيات"
+
+msgid "Vendor Evaluation & Negotiation"
+msgstr "تقييم الموردين والتفاوض"
+
+msgid "IT Governance & Compliance"
+msgstr "حوكمة تقنية المعلومات والامتثال"
+
+# Why Choose Us
+msgid "Why Choose Us?"
+msgstr "لماذا تختارنا؟"
+
+msgid "We combine deep technical expertise with business acumen to deliver real results."
+msgstr "نجمع بين الخبرة التقنية العميقة والفطنة التجارية لتحقيق نتائج حقيقية."
+
+msgid "Certified IT Professionals"
+msgstr "محترفون معتمدون في تقنية المعلومات"
+
+msgid "15+ Years Industry Experience"
+msgstr "أكثر من 15 عاماً من الخبرة"
+
+msgid "100+ Successful Projects"
+msgstr "أكثر من 100 مشروع ناجح"
+
+msgid "24/7 Support Available"
+msgstr "دعم متاح على مدار الساعة"
+
+msgid "NeoTechnology Solutions transformed our IT infrastructure and helped us achieve 40% cost reduction while improving performance."
+msgstr "نيوتكنولوجي سولوشنز حولت بنيتنا التحتية لتقنية المعلومات وساعدتنا على تحقيق خفض 40% في التكاليف مع تحسين الأداء."
+
+msgid "Enterprise Client"
+msgstr "عميل مؤسسي"
+
+# Trust Badges
+msgid "Trusted By Businesses Worldwide"
+msgstr "موثوق به من الشركات حول العالم"
+
+msgid "Certified Experts"
+msgstr "خبراء معتمدون"
+
+msgid "AWS, Azure, GCP certified"
+msgstr "معتمدون من AWS وAzure وGCP"
+
+msgid "Data Security"
+msgstr "أمن البيانات"
+
+msgid "NDA & compliance ready"
+msgstr "جاهزون للسرية والامتثال"
+
+msgid "24/7 Support"
+msgstr "دعم على مدار الساعة"
+
+msgid "Always available"
+msgstr "متاحون دائماً"
+
+msgid "Registered LLC"
+msgstr "شركة مسجلة"
+
+msgid "Wyoming, USA"
+msgstr "وايومنغ، الولايات المتحدة"
+
+# Contact Page
+msgid "Get in Touch"
+msgstr "تواصل معنا"
+
+msgid "Ready to transform your IT infrastructure? Let's discuss how we can help your business succeed."
+msgstr "هل أنت مستعد لتحويل بنيتك التحتية لتقنية المعلومات؟ دعنا نناقش كيف يمكننا مساعدة عملك على النجاح."
+
+msgid "We reply within 1 business day."
+msgstr "نرد خلال يوم عمل واحد."
+
+# Contact Form
+msgid "Company name *"
+msgstr "اسم الشركة *"
+
+msgid "Your organization"
+msgstr "مؤسستك"
+
+msgid "Your name *"
+msgstr "اسمك *"
+
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgid "Business email *"
+msgstr "البريد الإلكتروني للعمل *"
+
+msgid "Phone (optional)"
+msgstr "الهاتف (اختياري)"
+
+msgid "Service Interest *"
+msgstr "الخدمة المطلوبة *"
+
+msgid "Select one"
+msgstr "اختر واحدة"
+
+msgid "IT Strategy Consulting"
+msgstr "استشارات استراتيجية تقنية المعلومات"
+
+msgid "Other"
+msgstr "أخرى"
+
+msgid "What do you need help with? *"
+msgstr "بماذا تحتاج المساعدة؟ *"
+
+msgid "I agree to receive communications from NeoTechnology Solutions LLC and accept the Privacy Policy."
+msgstr "أوافق على تلقي اتصالات من نيوتكنولوجي سولوشنز وأقبل سياسة الخصوصية."
+
+msgid "Submit request"
+msgstr "إرسال الطلب"
+
+msgid "Prefer email directly?"
+msgstr "تفضل البريد الإلكتروني مباشرة؟"
+
+# Footer
+msgid "Professional IT consulting services for businesses. We provide strategic technology guidance, system architecture consulting, and digital transformation expertise."
+msgstr "خدمات استشارية احترافية في تقنية المعلومات للشركات. نقدم إرشاداً تقنياً استراتيجياً واستشارات هندسة الأنظمة وخبرة التحول الرقمي."
+
+msgid "Your trusted technology partner"
+msgstr "شريكك التقني الموثوق"
+
+msgid "Legal"
+msgstr "قانوني"
+
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+msgid "Cookie Policy"
+msgstr "سياسة ملفات تعريف الارتباط"
+
+msgid "Terms of Use"
+msgstr "شروط الاستخدام"
+
+msgid "Advisory Disclaimer"
+msgstr "إخلاء مسؤولية الاستشارات"
+
+msgid "Disclosure Policy"
+msgstr "سياسة الإفصاح"
+
+msgid "Contact"
+msgstr "اتصل بنا"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Phone / WhatsApp"
+msgstr "الهاتف / واتساب"
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Working Hours"
+msgstr "ساعات العمل"
+
+msgid "Sun - Thu: 9AM - 5PM"
+msgstr "الأحد - الخميس: 9 صباحاً - 5 مساءً"
+
+msgid "Request a Discussion"
+msgstr "طلب مناقشة"
+
+msgid "All rights reserved."
+msgstr "جميع الحقوق محفوظة."
+
+msgid "Back to top"
+msgstr "العودة للأعلى"
+
+# Navigation
+msgid "Consulting Models"
+msgstr "نماذج الاستشارات"
+
+msgid "Deliverables"
+msgstr "المخرجات"
+
+msgid "Request discussion"
+msgstr "طلب مناقشة"
+
+msgid "Toggle menu"
+msgstr "تبديل القائمة"
+
+# Latest Insights
+msgid "Latest Insights"
+msgstr "أحدث الرؤى"
+
+msgid "Thoughts on the changing landscape of enterprise IT."
+msgstr "أفكار حول المشهد المتغير لتقنية المعلومات المؤسسية."
+
+msgid "The Cloud Exit Strategy"
+msgstr "استراتيجية الخروج من السحابة"
+
+msgid "Why having a way out is as important as getting in."
+msgstr "لماذا وجود طريقة للخروج بنفس أهمية الدخول."
+
+msgid "Vendor Management 101"
+msgstr "إدارة الموردين 101"
+
+msgid "How to keep your partners honest and aligned."
+msgstr "كيف تحافظ على صدق شركائك وتوافقهم."
+
+msgid "Technical Debt vs. Investment"
+msgstr "الديون التقنية مقابل الاستثمار"
+
+msgid "Knowing the difference saves millions."
+msgstr "معرفة الفرق توفر الملايين."
+
+# CTA Section
+msgid "Ready to make a decision?"
+msgstr "هل أنت مستعد لاتخاذ قرار؟"
+
+msgid "If your business needs structured IT guidance, request an initial discussion."
+msgstr "إذا كان عملك يحتاج إلى توجيه منظم في تقنية المعلومات، اطلب مناقشة أولية."
+
+# ============================================
+# CONTACT PAGE - Two-Step Engagement Process
+# ============================================
+
+# Contact Page Header
+msgid "Let's Start a Conversation"
+msgstr "خلنا نبدأ محادثة"
+
+msgid "Professional IT consulting begins with understanding your unique challenges."
+msgstr "الاستشارات التقنية الاحترافية تبدأ بفهم تحدياتك الخاصة."
+
+# Engagement Steps
+msgid "Our Engagement Process"
+msgstr "آلية التعامل معنا"
+
+msgid "We believe in understanding before advising. That's why we start with a brief discovery call."
+msgstr "نؤمن بالفهم قبل تقديم الاستشارة. عشان كذا نبدأ بمكالمة استكشافية قصيرة."
+
+msgid "Step 1"
+msgstr "الخطوة الأولى"
+
+msgid "Step 2"
+msgstr "الخطوة الثانية"
+
+msgid "Discovery Call"
+msgstr "مكالمة استكشافية"
+
+msgid "min"
+msgstr "دقيقة"
+
+msgid "Understand your challenges"
+msgstr "نفهم تحدياتك"
+
+msgid "Determine if we're a good fit"
+msgstr "نحدد إذا كنا مناسبين لك"
+
+msgid "No obligation, completely free"
+msgstr "بدون التزام، مجاناً بالكامل"
+
+msgid "FREE"
+msgstr "مجاناً"
+
+msgid "Strategy Session"
+msgstr "جلسة استراتيجية"
+
+msgid "Deep-dive into requirements"
+msgstr "تعمق في المتطلبات"
+
+msgid "Present preliminary approach"
+msgstr "نقدم منهج مبدئي"
+
+msgid "Discuss engagement options"
+msgstr "نناقش خيارات التعاقد"
+
+msgid "If aligned after discovery call"
+msgstr "في حال التوافق بعد المكالمة الاستكشافية"
+
+# Contact Information Sidebar
+msgid "Contact Information"
+msgstr "معلومات التواصل"
+
+msgid "Response Time"
+msgstr "وقت الرد"
+
+msgid "Within 1 business day"
+msgstr "خلال يوم عمل واحد"
+
+msgid "Serving clients globally"
+msgstr "نخدم عملاء حول العالم"
+
+msgid "Prefer to schedule directly?"
+msgstr "تفضل تحجز موعد مباشرة؟"
+
+msgid "Book a Time Slot"
+msgstr "احجز موعد"
+
+# Intake Form
+msgid "Request a Discovery Call"
+msgstr "اطلب مكالمة استكشافية"
+
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+msgid "Your Name"
+msgstr "اسمك"
+
+msgid "Business Email"
+msgstr "البريد الإلكتروني للعمل"
+
+msgid "Phone (WhatsApp preferred)"
+msgstr "الجوال (يفضل واتساب)"
+
+msgid "Company Size"
+msgstr "حجم الشركة"
+
+msgid "Industry"
+msgstr "القطاع"
+
+msgid "Select your industry"
+msgstr "اختر قطاعك"
+
+msgid "Technology & Software"
+msgstr "التقنية والبرمجيات"
+
+msgid "Finance & Banking"
+msgstr "المالية والبنوك"
+
+msgid "Healthcare & Life Sciences"
+msgstr "الرعاية الصحية والعلوم الحيوية"
+
+msgid "Retail & E-commerce"
+msgstr "التجزئة والتجارة الإلكترونية"
+
+msgid "Manufacturing & Industrial"
+msgstr "التصنيع والصناعة"
+
+msgid "Government & Public Sector"
+msgstr "الحكومة والقطاع العام"
+
+msgid "Education & Research"
+msgstr "التعليم والبحث العلمي"
+
+msgid "Energy & Utilities"
+msgstr "الطاقة والمرافق"
+
+msgid "Real Estate & Construction"
+msgstr "العقارات والبناء"
+
+msgid "Service Interest"
+msgstr "الخدمة المطلوبة"
+
+msgid "Project Clarity"
+msgstr "وضوح المشروع"
+
+msgid "I have a clear project"
+msgstr "عندي مشروع واضح"
+
+msgid "Defined scope and requirements"
+msgstr "نطاق ومتطلبات محددة"
+
+msgid "I have a general idea"
+msgstr "عندي فكرة عامة"
+
+msgid "Know the problem, need help defining solution"
+msgstr "أعرف المشكلة، أحتاج مساعدة في تحديد الحل"
+
+msgid "I need guidance"
+msgstr "أحتاج إرشاد"
+
+msgid "Exploring options and need expert direction"
+msgstr "أستكشف الخيارات وأحتاج توجيه خبير"
+
+msgid "Timeline"
+msgstr "الجدول الزمني"
+
+msgid "Urgent"
+msgstr "عاجل"
+
+msgid "< 1 month"
+msgstr "أقل من شهر"
+
+msgid "Near-term"
+msgstr "قريب"
+
+msgid "1-3 months"
+msgstr "1-3 أشهر"
+
+msgid "Planning"
+msgstr "تخطيط"
+
+msgid "3-6 months"
+msgstr "3-6 أشهر"
+
+msgid "Exploring"
+msgstr "استكشاف"
+
+msgid "No rush"
+msgstr "بدون استعجال"
+
+msgid "Tell us about your situation"
+msgstr "خبرنا عن وضعك"
+
+msgid "Brief description of your challenges and what you're hoping to achieve..."
+msgstr "وصف مختصر لتحدياتك وما تتطلع تحققه..."
+
+msgid "I agree to receive communications from NeoTechnology Solutions LLC and accept the %sPrivacy Policy%s."
+msgstr "أوافق على تلقي اتصالات من نيوتكنولوجي سولوشنز وأقبل %sسياسة الخصوصية%s."
+
+msgid "Request Discovery Call"
+msgstr "اطلب مكالمة استكشافية"
+
+msgid "No commitment. No pressure. Just a conversation."
+msgstr "بدون التزام. بدون ضغط. مجرد محادثة."
+
+# What to Expect Section
+msgid "What to Expect"
+msgstr "ماذا تتوقع"
+
+msgid "After you submit, here's what happens:"
+msgstr "بعد ما ترسل، هذا اللي يصير:"
+
+msgid "We review your inquiry"
+msgstr "نراجع طلبك"
+
+msgid "Same business day"
+msgstr "نفس يوم العمل"
+
+msgid "We reach out to schedule"
+msgstr "نتواصل معك لتحديد موعد"
+
+msgid "Via email or WhatsApp"
+msgstr "عبر الإيميل أو الواتساب"
+
+msgid "15-30 min to understand your needs"
+msgstr "15-30 دقيقة لفهم احتياجاتك"
+
+msgid "If aligned, strategy session"
+msgstr "إذا توافقنا، جلسة استراتيجية"
+
+msgid "60 min deep-dive"
+msgstr "60 دقيقة تعمق"
+
+msgid "Proposal & next steps"
+msgstr "العرض والخطوات القادمة"
+
+msgid "Clear path forward"
+msgstr "مسار واضح للأمام"
+
+msgid "No pressure. No commitment until you're ready."
+msgstr "بدون ضغط. بدون التزام حتى تكون جاهز."
+
+# Additional form placeholders
+msgid "Brief description of your situation and what decision you're facing..."
+msgstr "وصف مختصر لوضعك والقرار اللي تواجهه..."
+
+# ============================================
+# SEO META CONTENT - Arabic Translations
+# Saudi Dialect (العربية السعودية)
+# ============================================
+
+# Page Titles
+msgid "Contact Us - Get a Free Discovery Call"
+msgstr "تواصل معنا - احصل على مكالمة استكشافية مجانية"
+
+msgid "Our Services - Expert IT Consulting"
+msgstr "خدماتنا - استشارات تقنية متخصصة"
+
+msgid "About Us - NeoTechnology Solutions"
+msgstr "عنا - نيوتكنولوجي سولوشنز"
+
+# SEO Descriptions
+msgid "Schedule a free discovery call with NeoTechnology Solutions. Get expert IT consulting advice on cloud strategy, digital transformation, and cybersecurity."
+msgstr "احجز مكالمة استكشافية مجانية مع نيوتكنولوجي سولوشنز. احصل على استشارات تقنية متخصصة في استراتيجية السحابة والتحول الرقمي والأمن السيبراني."
+
+msgid "Comprehensive IT consulting services: Cloud & Infrastructure Strategy, Digital Transformation, Cybersecurity Consulting. Vendor-neutral expert guidance."
+msgstr "خدمات استشارات تقنية شاملة: استراتيجية السحابة والبنية التحتية، التحول الرقمي، استشارات الأمن السيبراني. إرشادات خبراء محايدين."
+
+msgid "NeoTechnology Solutions is an independent IT consulting firm providing vendor-neutral technology guidance. Based in Wyoming, USA."
+msgstr "نيوتكنولوجي سولوشنز شركة استشارات تقنية مستقلة تقدم إرشادات تقنية محايدة. مقرها وايومنغ، الولايات المتحدة."
+
+# Schema.org FAQ Questions (Arabic)
+msgid "What services does NeoTechnology Solutions offer?"
+msgstr "ما هي الخدمات اللي تقدمها نيوتكنولوجي سولوشنز؟"
+
+msgid "We provide expert IT consulting including Cloud Strategy, Digital Transformation, Cybersecurity Advisory, and IT Infrastructure Planning."
+msgstr "نقدم استشارات تقنية متخصصة تشمل استراتيجية السحابة، التحول الرقمي، استشارات الأمن السيبراني، وتخطيط البنية التحتية."
+
+msgid "How do I get started with NeoTechnology Solutions?"
+msgstr "كيف أبدأ مع نيوتكنولوجي سولوشنز؟"
+
+msgid "Start with a free 15-30 minute discovery call where we understand your challenges and determine if we're a good fit. No obligation."
+msgstr "ابدأ بمكالمة استكشافية مجانية 15-30 دقيقة نفهم فيها تحدياتك ونشوف إذا نقدر نساعدك. بدون أي التزام."
+
+msgid "Is NeoTechnology Solutions vendor-neutral?"
+msgstr "هل نيوتكنولوجي سولوشنز محايدة؟"
+
+msgid "Yes, we are completely vendor-neutral. We recommend solutions based solely on your business needs, not vendor partnerships."
+msgstr "أيوا، احنا محايدين تماماً. نوصي بحلول بناءً على احتياجات عملك فقط، مو شراكات مع شركات معينة."
+
+msgid "What is the cost of IT consulting services?"
+msgstr "كم تكلفة خدمات استشارات تقنية المعلومات؟"
+
+msgid "Our discovery call is completely free. After understanding your needs, we provide a customized proposal based on project scope."
+msgstr "المكالمة الاستكشافية مجانية تماماً. بعد ما نفهم احتياجاتك، نقدم لك عرض مخصص حسب نطاق المشروع."
+
+# Additional SEO Keywords Content
+msgid "IT Consulting Services"
+msgstr "خدمات استشارات تقنية المعلومات"
+
+msgid "Cloud Strategy"
+msgstr "استراتيجية السحابة"
+
+msgid "Digital Transformation"
+msgstr "التحول الرقمي"
+
+msgid "Cybersecurity Consulting"
+msgstr "استشارات الأمن السيبراني"
+
+msgid "IT Infrastructure Planning"
+msgstr "تخطيط البنية التحتية"
+
+msgid "Technology Roadmap"
+msgstr "خارطة الطريق التقنية"
+
+msgid "Cloud Migration"
+msgstr "الترحيل السحابي"
+
+msgid "Enterprise Technology"
+msgstr "تقنية المؤسسات"
+
+msgid "Vendor-Neutral Advice"
+msgstr "نصائح محايدة"
+
+msgid "Wyoming IT Consultant"
+msgstr "مستشار تقنية المعلومات"
+
+msgid "Free Consultation"
+msgstr "استشارة مجانية"
+
+msgid "Expert IT Advice"
+msgstr "نصائح تقنية متخصصة"
+
+# Trust & Credibility
+msgid "15+ Years Experience"
+msgstr "أكثر من 15 سنة خبرة"
+
+msgid "100+ Successful Projects"
+msgstr "أكثر من 100 مشروع ناجح"
+
+msgid "Vendor-Neutral Guidance"
+msgstr "إرشادات محايدة"
+
+msgid "Wyoming, USA Based"
+msgstr "مقرنا في وايومنغ، أمريكا"
+
+# Call-to-Action Phrases
+msgid "Get Your Free Discovery Call"
+msgstr "احصل على مكالمتك الاستكشافية المجانية"
+
+msgid "Schedule Now"
+msgstr "احجز الحين"
+
+msgid "Talk to an Expert"
+msgstr "تكلم مع خبير"
+
+msgid "Start Your Digital Journey"
+msgstr "ابدأ رحلتك الرقمية"
+
+msgid "Transform Your Business"
+msgstr "حوّل عملك"
+
+# Breadcrumb Navigation
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "About"
+msgstr "عنا"
+
+msgid "Contact"
+msgstr "تواصل"
+
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+# Response Time & Availability
+msgid "Response within 1 business day"
+msgstr "رد خلال يوم عمل واحد"
+
+msgid "Available Sunday to Thursday"
+msgstr "متاحين من الأحد للخميس"
+
+msgid "9 AM - 5 PM AST"
+msgstr "9 صباحاً - 5 مساءً"
+
+# Form Success Messages
+msgid "Thank you for your inquiry!"
+msgstr "شكراً لتواصلك معنا!"
+
+msgid "We'll get back to you within 1 business day."
+msgstr "راح نتواصل معك خلال يوم عمل واحد."
+
+msgid "Your message has been sent successfully."
+msgstr "رسالتك وصلتنا بنجاح."
+
+# Footer SEO Content
+msgid "NeoTechnology Solutions LLC - Your Trusted IT Consulting Partner"
+msgstr "نيوتكنولوجي سولوشنز - شريكك الموثوق في استشارات تقنية المعلومات"
+
+msgid "Based in Wyoming, USA. Serving clients globally."
+msgstr "مقرنا في وايومنغ، أمريكا. نخدم عملاء من كل العالم."
+
+msgid "All rights reserved."
+msgstr "جميع الحقوق محفوظة."
+
+# Skip Link (Accessibility)
+msgid "Skip to main content"
+msgstr "انتقل للمحتوى الرئيسي"
+
+# Schema Location Data
+msgid "Cheyenne, Wyoming, USA"
+msgstr "شايان، وايومنغ، أمريكا"
+
+msgid "United States"
+msgstr "الولايات المتحدة الأمريكية"
+
+# Vendor Introductions Dropdown (Intake Form)
+msgid "Do you want vendor introductions?"
+msgstr "هل تريد تعريف بمزوّدين؟"
+
+msgid "No, advisory only"
+msgstr "لا، استشارة فقط"
+
+msgid "Yes, I want introductions (disclosure required)"
+msgstr "نعم، أريد ترشيح/تعريف بمورد (مع الإفصاح)"
+
+msgid "Not sure"
+msgstr "غير متأكد"
+
+msgid "If yes, referral fees are disclosed per our %sDisclosure Policy%s."
+msgstr "في حال الموافقة، يتم الإفصاح عن أي عمولات وفقاً لـ%sسياسة الإفصاح%s."
+
+# ============================================
+# WHITE PREMIUM THEME - Arabic Translations
+# ============================================
+
+# Neutrality Card
+msgid "Vendor Neutrality & Introductions"
+msgstr "الحياد وترشيح الموردين"
+
+msgid "We provide independent, vendor-neutral consulting. We do not sell products as part of our advisory services."
+msgstr "نقدّم الاستشارة بشكل مستقل ومحايد، ولا نبيع منتجات ضمن الخدمة الاستشارية."
+
+msgid "If a client requests a vendor introduction, any referral fees or commissions are"
+msgstr "وفي حال طلب العميل ترشيح مورد/التعريف بمزوّد، يتم"
+
+msgid "disclosed and documented in advance"
+msgstr "الإفصاح عن أي مقابل/عمولة وتوثيقها مسبقًا"
+
+msgid "The client is free to choose any vendor with no obligation."
+msgstr "والعميل حر في اختيار أي مزوّد دون التزام."
+
+msgid "Read our disclosure policy"
+msgstr "اقرأ سياسة الإفصاح"
+
+# Boundaries - What We Don't Do
+msgid "What We Don't Do"
+msgstr "ما لا نقوم به"
+
+msgid "Clarity in scope ensures aligned expectations"
+msgstr "الوضوح في النطاق يضمن توقعات متوافقة"
+
+msgid "No implementation, development, or installation"
+msgstr "لا تنفيذ أو تطوير أو تركيب"
+
+msgid "No ongoing operational support or Managed Services"
+msgstr "لا دعم تشغيلي مستمر أو تشغيل مُدار (Managed Services)"
+
+msgid "No guarantees of results or performance"
+msgstr "لا ضمان نتائج أو أداء"
+
+msgid "No product sales as part of consulting"
+msgstr "لا بيع منتجات ضمن الاستشارة"
+
+msgid "Vendor introductions are optional, by client request only, with documented disclosure in advance — client is free to choose any vendor"
+msgstr "ترشيح الموردين اختياري وبطلب العميل فقط مع إفصاح موثّق مسبقًا — والعميل حر في اختيار أي مزوّد"
+
+msgid "Our independence is our value. We succeed when you make an informed decision."
+msgstr "استقلاليتنا هي قيمتنا. ننجح عندما تتخذ قراراً مستنيراً."
+
+# CTA Section - 90-minute session
+msgid "Start With a 90-Minute Decision Session"
+msgstr "ابدأ بجلسة قرار مدتها 90 دقيقة"
+
+msgid "Bring a specific technology decision. We'll provide structured analysis and initial recommendations. No commitment to continue."
+msgstr "أحضر قراراً تقنياً محدداً. سنقدم تحليلاً منظماً وتوصيات أولية. لا التزام بالمتابعة."
+
+msgid "Request a Session"
+msgstr "احجز جلسة"
+
+msgid "We respond within one business day."
+msgstr "نرد خلال يوم عمل واحد."
+
+# Contact Form
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+msgid "Send your inquiry and we'll respond within one business day"
+msgstr "أرسل استفسارك وسنرد خلال يوم عمل واحد"
+
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+msgid "Email Address"
+msgstr "البريد الإلكتروني"
+
+msgid "Company Name"
+msgstr "اسم المنشأة"
+
+msgid "Phone Number"
+msgstr "رقم الجوال"
+
+msgid "Consulting Topic"
+msgstr "موضوع الاستشارة"
+
+msgid "Select a topic"
+msgstr "اختر الموضوع"
+
+msgid "Cloud Strategy"
+msgstr "استراتيجية الحوسبة السحابية"
+
+msgid "Cybersecurity & Compliance"
+msgstr "الأمن السيبراني والامتثال"
+
+msgid "Vendor Selection & Evaluation"
+msgstr "اختيار وتقييم المزودين"
+
+msgid "Digital Transformation"
+msgstr "التحول الرقمي"
+
+msgid "Other"
+msgstr "أخرى"
+
+msgid "Your Message"
+msgstr "رسالتك"
+
+msgid "Send Message"
+msgstr "إرسال"

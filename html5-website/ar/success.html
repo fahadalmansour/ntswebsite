@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تم الإرسال بنجاح | نيوتكنولوجي سولوشنز</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+        .status-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, var(--slate-50) 0%, white 100%);
+            padding: var(--space-6);
+        }
+        .status-card {
+            background: white;
+            border-radius: var(--radius-2xl);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+            padding: var(--space-12);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        .status-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-6);
+            font-size: 2.5rem;
+        }
+        .status-icon.success {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        .status-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+        }
+        .status-message {
+            color: var(--slate-600);
+            line-height: 1.9;
+            margin-bottom: var(--space-8);
+        }
+        .status-details {
+            background: var(--slate-50);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin-bottom: var(--space-8);
+            text-align: right;
+        }
+        .status-details h3 {
+            font-size: 0.9375rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+        }
+        .status-details ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .status-details li {
+            color: var(--slate-600);
+            font-size: 0.9375rem;
+            padding: var(--space-2) 0;
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-2);
+        }
+        .status-details li::before {
+            content: "\2713";
+            color: #10b981;
+            font-weight: bold;
+        }
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            background: var(--primary);
+            color: white;
+            font-weight: 500;
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-home:hover {
+            background: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+    <div class="status-page">
+        <div class="status-card">
+            <div class="status-icon success">
+                <span>&#10003;</span>
+            </div>
+            <h1 class="status-title">تم الإرسال بنجاح</h1>
+            <p class="status-message">
+                شكراً لتواصلكم معنا. تم استلام استفساركم وسيقوم فريقنا الاستشاري بمراجعته في أقرب وقت.
+            </p>
+
+            <div class="status-details">
+                <h3>ماذا يحدث بعد ذلك؟</h3>
+                <ul>
+                    <li>ستصلكم رسالة تأكيد عبر البريد الإلكتروني خلال دقائق</li>
+                    <li>سيراجع فريقنا استفساركم خلال يوم عمل واحد</li>
+                    <li>سنتواصل معكم بالخطوات التالية أو لطلب تفاصيل إضافية</li>
+                    <li>إذا كان طلبكم مؤهلاً، سنحدد موعد جلسة القرار (90 دقيقة)</li>
+                </ul>
+            </div>
+
+            <a href="index.html" class="btn-home">
+                <span>&rarr;</span>
+                العودة للصفحة الرئيسية
+            </a>
+        </div>
+    </div>
+</body>
+</html>

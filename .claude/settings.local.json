@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(zip:*)",
+      "Bash(gh pr:*)",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(open:*)",
+      "Bash(unzip:*)",
+      "WebFetch(domain:neotechnology.solutions)",
+      "Bash(curl:*)",
+      "Bash(__NEW_LINE__ echo \"\")",
+      "Bash(# Check current icons/brand assets ls -la /Users/fahadalmansour/Downloads/NTS/html5-website/assets/brand/ || echo \"\"No brand folder\"\" ls -la /Users/fahadalmansour/Downloads/NTS/html5-website/assets/images/ || echo \"\"No images folder\"\" echo \"\"\"\" echo \"\"=== Check favicon in HTML ===\"\" grep -i \"\"favicon\\\\|icon\"\" /Users/fahadalmansour/Downloads/NTS/html5-website/en/index.html)",
+      "Bash(npx stylelint:*)"
+    ]
+  }
+}

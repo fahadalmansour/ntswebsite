@@ -1,0 +1,2 @@
+put /Users/fahadalmansour/Downloads/NTS/nts-theme-fixed.zip /wp-content/themes/nts-theme-fixed.zip
+quit

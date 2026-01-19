@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something Went Wrong | NeoTechnology Solutions</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .status-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, var(--slate-50) 0%, white 100%);
+            padding: var(--space-6);
+        }
+        .status-card {
+            background: white;
+            border-radius: var(--radius-2xl);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+            padding: var(--space-12);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        .status-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-6);
+            font-size: 2.5rem;
+        }
+        .status-icon.error {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            color: white;
+        }
+        .status-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+        }
+        .status-message {
+            color: var(--slate-600);
+            line-height: 1.7;
+            margin-bottom: var(--space-8);
+        }
+        .status-alternatives {
+            background: var(--slate-50);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin-bottom: var(--space-8);
+            text-align: left;
+        }
+        .status-alternatives h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .contact-option {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: var(--space-3) 0;
+            border-bottom: 1px solid var(--slate-200);
+        }
+        .contact-option:last-child {
+            border-bottom: none;
+        }
+        .contact-option-icon {
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        .contact-option-text {
+            flex: 1;
+        }
+        .contact-option-label {
+            font-size: 0.8125rem;
+            color: var(--slate-500);
+        }
+        .contact-option-value {
+            font-weight: 500;
+            color: var(--slate-900);
+        }
+        .contact-option-value a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .contact-option-value a:hover {
+            text-decoration: underline;
+        }
+        .btn-group {
+            display: flex;
+            gap: var(--space-3);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-retry {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            background: var(--primary);
+            color: white;
+            font-weight: 500;
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-retry:hover {
+            background: var(--primary-dark);
+        }
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            background: var(--slate-100);
+            color: var(--slate-700);
+            font-weight: 500;
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-home:hover {
+            background: var(--slate-200);
+        }
+    </style>
+</head>
+<body>
+    <div class="status-page">
+        <div class="status-card">
+            <div class="status-icon error">
+                <span>!</span>
+            </div>
+            <h1 class="status-title">Something Went Wrong</h1>
+            <p class="status-message">
+                We couldn't process your submission. This could be due to a temporary server issue or a validation error. Please try again or contact us directly.
+            </p>
+
+            <div class="status-alternatives">
+                <h3>Contact Us Directly</h3>
+
+                <div class="contact-option">
+                    <div class="contact-option-icon">&#9993;</div>
+                    <div class="contact-option-text">
+                        <div class="contact-option-label">Email</div>
+                        <div class="contact-option-value">
+                            <a href="mailto:contact@neotechnology.solutions">contact@neotechnology.solutions</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-option">
+                    <div class="contact-option-icon">&#9742;</div>
+                    <div class="contact-option-text">
+                        <div class="contact-option-label">Phone</div>
+                        <div class="contact-option-value">
+                            <a href="tel:+13075073999">+1 (307) 507-3999</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-option">
+                    <div class="contact-option-icon">&#128340;</div>
+                    <div class="contact-option-text">
+                        <div class="contact-option-label">Business Hours</div>
+                        <div class="contact-option-value">Sun-Thu, 9 AM - 6 PM (Riyadh)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="contact.php" class="btn-retry">
+                    Try Again
+                </a>
+                <a href="index.html" class="btn-home">
+                    Return to Homepage
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

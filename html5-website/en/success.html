@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sent | NeoTechnology Solutions</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .status-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, var(--slate-50) 0%, white 100%);
+            padding: var(--space-6);
+        }
+        .status-card {
+            background: white;
+            border-radius: var(--radius-2xl);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+            padding: var(--space-12);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        .status-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-6);
+            font-size: 2.5rem;
+        }
+        .status-icon.success {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        .status-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+        }
+        .status-message {
+            color: var(--slate-600);
+            line-height: 1.7;
+            margin-bottom: var(--space-8);
+        }
+        .status-details {
+            background: var(--slate-50);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin-bottom: var(--space-8);
+            text-align: left;
+        }
+        .status-details h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--slate-900);
+            margin-bottom: var(--space-3);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .status-details ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .status-details li {
+            color: var(--slate-600);
+            font-size: 0.9375rem;
+            padding: var(--space-2) 0;
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-2);
+        }
+        .status-details li::before {
+            content: "\2713";
+            color: #10b981;
+            font-weight: bold;
+        }
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            background: var(--primary);
+            color: white;
+            font-weight: 500;
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-home:hover {
+            background: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+    <div class="status-page">
+        <div class="status-card">
+            <div class="status-icon success">
+                <span>&#10003;</span>
+            </div>
+            <h1 class="status-title">Message Sent Successfully</h1>
+            <p class="status-message">
+                Thank you for reaching out. Your inquiry has been received and our advisory team will review it promptly.
+            </p>
+
+            <div class="status-details">
+                <h3>What Happens Next</h3>
+                <ul>
+                    <li>You'll receive a confirmation email within minutes</li>
+                    <li>Our team will review your inquiry within 1 business day</li>
+                    <li>We'll respond with next steps or request additional details</li>
+                    <li>If qualified, we'll schedule a 90-minute decision session</li>
+                </ul>
+            </div>
+
+            <a href="index.html" class="btn-home">
+                <span>&larr;</span>
+                Return to Homepage
+            </a>
+        </div>
+    </div>
+</body>
+</html>
