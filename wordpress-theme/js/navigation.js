@@ -1,6 +1,6 @@
 /**
  * NeoTechnology Solutions - Navigation Script
- * 
+ *
  * Handles mobile menu toggle and smooth scrolling
  */
 

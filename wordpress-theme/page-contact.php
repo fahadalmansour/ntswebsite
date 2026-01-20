@@ -1,52 +1,58 @@
 <?php
 /**
- * Template Name: Contact Page
- *
- * Comprehensive contact page with two-step engagement process,
- * qualification form, and complete contact information.
- *
+ * Template Name: Contact
+ * 
  * @package NeoTechnology_Solutions
  */
 
 get_header();
-$is_rtl = is_rtl();
 ?>
 
-<main id="primary" class="site-main min-h-screen bg-white pt-12 pb-20 px-6">
-    <div class="max-w-6xl mx-auto">
+<main id="primary" class="site-main bg-slate-50">
 
-        <!-- Page Header -->
-        <div class="text-center mb-12">
-            <h1 class="text-4xl sm:text-5xl text-slate-900 mb-4 tracking-tight font-light">
-                <?php _e("Let's Start a Conversation", 'neotech'); ?>
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-12 px-6 bg-white border-b border-slate-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-light text-slate-900 mb-6 tracking-tight">
+                <?php _e('Contact Us', 'neotech'); ?>
             </h1>
-            <p class="text-xl text-slate-600 mb-2 leading-relaxed max-w-2xl mx-auto">
-                <?php _e('Professional IT consulting begins with understanding your unique challenges.', 'neotech'); ?>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                <?php _e('Request a decision session or send us an inquiry. We respond within one business day.', 'neotech'); ?>
             </p>
         </div>
+    </section>
 
-        <!-- Engagement Steps (Two-Step Process) -->
-        <?php echo do_shortcode('[neotech_engagement_steps]'); ?>
-
-        <!-- Main Content: Sidebar + Form -->
-        <div class="grid lg:grid-cols-3 gap-8">
-
-            <!-- Left Sidebar: Contact Info -->
-            <div class="lg:col-span-1 order-2 lg:order-1">
+    <!-- Content Grid -->
+    <section class="py-16 px-6">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12">
+            
+            <!-- Left Column: Contact Info & What to Expect (4 cols) -->
+            <div class="lg:col-span-4 space-y-8">
+                <!-- Contact Info Shortcode -->
                 <?php echo do_shortcode('[neotech_contact_info]'); ?>
+
+                <!-- What To Expect Shortcode -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+                    <?php echo do_shortcode('[neotech_what_to_expect]'); ?>
+                </div>
+
+                <!-- Privacy Note -->
+                <div class="text-sm text-slate-500 px-2">
+                    <p>
+                        <?php _e('Your privacy is important to us. Read our', 'neotech'); ?> 
+                        <a href="<?php echo esc_url(home_url('/privacy/')); ?>" class="text-sky-600 hover:text-sky-700 underline"><?php _e('Privacy Policy', 'neotech'); ?></a>.
+                    </p>
+                </div>
             </div>
 
-            <!-- Right: Intake Form -->
-            <div class="lg:col-span-2 order-1 lg:order-2">
+            <!-- Right Column: Intake Form (8 cols) -->
+            <div class="lg:col-span-8">
                 <?php echo do_shortcode('[neotech_intake_form]'); ?>
             </div>
 
         </div>
+    </section>
 
-        <!-- What to Expect Section -->
-        <?php echo do_shortcode('[neotech_what_to_expect]'); ?>
-
-    </div>
 </main>
 
 <?php

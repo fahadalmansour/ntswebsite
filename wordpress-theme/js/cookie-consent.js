@@ -170,7 +170,7 @@
                 font-family: system-ui, -apple-system, sans-serif;
             }
             #neotech-cookie-banner.visible { display: block; }
-            
+
             .neotech-banner-content {
                 max-width: 80rem;
                 margin: 0 auto;
@@ -178,7 +178,7 @@
                 flex-direction: column;
                 gap: 1.5rem;
             }
-            
+
             @media (min-width: 768px) {
                 .neotech-banner-content {
                     flex-direction: row;
@@ -233,7 +233,7 @@
                 justify-content: center;
                 padding: 1rem;
             }
-            
+
             #neotech-cookie-modal.visible { display: flex; }
 
             .neotech-modal-content {
@@ -282,7 +282,7 @@
                 height: 24px;
             }
 
-            .neotech-switch input { 
+            .neotech-switch input {
                 opacity: 0;
                 width: 0;
                 height: 0;
@@ -319,7 +319,7 @@
             input:checked + .neotech-slider:before {
                 transform: translateX(20px);
             }
-            
+
             input:disabled + .neotech-slider {
                 opacity: 0.5;
                 cursor: not-allowed;
@@ -339,7 +339,7 @@
                     <div style="flex: 1;">
                         <h3 style="font-weight: 600; margin-bottom: 0.5rem; font-size: 1rem;">Cookie Preferences</h3>
                         <p style="color: #475569; font-size: 0.875rem; line-height: 1.5;">
-                            We use cookies to improve your experience and analyze site traffic. 
+                            We use cookies to improve your experience and analyze site traffic.
                             Essential cookies are always enabled.
                         </p>
                     </div>
@@ -364,7 +364,7 @@
                         <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 1.5rem;">
                             Manage your cookie preferences here. Essential cookies are required for the site to function.
                         </p>
-                        
+
                         <!-- Essential -->
                         <div class="neotech-cookie-row">
                             <div>

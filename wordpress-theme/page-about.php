@@ -1,80 +1,79 @@
 <?php
 /**
- * Template Name: About Us
- *
+ * Template Name: About
+ * 
  * @package NeoTechnology_Solutions
  */
 
 get_header();
 ?>
 
-<main id="primary" class="site-main min-h-screen bg-white">
+<main id="primary" class="site-main">
+
     <!-- Hero Section -->
-    <section class="pt-16 pb-12 px-6 bg-slate-50">
+    <section class="relative pt-32 pb-20 px-6 bg-white border-b border-slate-100">
         <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-4xl sm:text-5xl text-slate-900 mb-6 tracking-tight font-light">
+            <h1 class="text-4xl md:text-6xl font-light text-slate-900 mb-6 tracking-tight">
                 <?php _e('About NeoTechnology Solutions', 'neotech'); ?>
             </h1>
-            <p class="text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
-                <?php _e('We are a team of experienced IT professionals dedicated to helping businesses navigate complex technology decisions and achieve digital excellence.', 'neotech'); ?>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                <?php _e('Independent technology advisory for organizations making important decisions. We provide clarity, structure, and objectivity.', 'neotech'); ?>
             </p>
         </div>
     </section>
 
-    <!-- Our Story Section -->
-    <section class="py-16 px-6">
+    <!-- Why Advisory Only -->
+    <section class="py-24 px-6 bg-white">
         <div class="max-w-4xl mx-auto">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-3xl text-slate-900 mb-6 font-light"><?php _e('Our Story', 'neotech'); ?></h2>
-                    <p class="text-slate-700 leading-relaxed mb-4">
-                        <?php _e('NeoTechnology Solutions was founded with a clear mission: to provide businesses with expert IT consulting that drives real results. We saw too many organizations struggling with technology decisions, often receiving biased advice from vendors with conflicting interests.', 'neotech'); ?>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-light text-slate-900 mb-6"><?php _e('Why Advisory Only?', 'neotech'); ?></h2>
+                <div class="w-16 h-1 bg-sky-500 mx-auto rounded-full mb-8"></div>
+                
+                <div class="prose prose-lg prose-slate mx-auto text-slate-600 leading-relaxed">
+                    <p class="mb-6">
+                        <?php _e('Traditional consultants often have conflicts of interest. They may recommend approaches that lead to implementation work. Vendors naturally advocate for their products. Internal teams may have organizational biases.', 'neotech'); ?>
                     </p>
-                    <p class="text-slate-700 leading-relaxed mb-4">
-                        <?php _e('Our approach is different. We combine deep technical expertise with business acumen to deliver strategic guidance that aligns technology investments with business objectives.', 'neotech'); ?>
+                    <p class="font-medium text-slate-900 text-xl">
+                        <?php _e('We removed these conflicts.', 'neotech'); ?>
                     </p>
-                    <p class="text-slate-700 leading-relaxed">
-                        <?php _e('Based in Wyoming, USA, we serve clients across multiple industries, helping them modernize their IT infrastructure, implement digital transformation initiatives, and make informed technology decisions.', 'neotech'); ?>
-                    </p>
-                </div>
-                <div class="bg-slate-100 rounded-2xl p-8 text-center">
-                    <div class="w-24 h-24 bg-slate-900 rounded-full mx-auto mb-6 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                        </svg>
-                    </div>
-                    <p class="text-2xl font-light text-slate-900 mb-2"><?php _e('15+ Years', 'neotech'); ?></p>
-                    <p class="text-slate-600"><?php _e('Industry Experience', 'neotech'); ?></p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Mission & Vision -->
-    <section class="py-16 px-6 bg-slate-50">
-        <div class="max-w-4xl mx-auto">
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-2xl p-8 border border-slate-200">
-                    <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl text-slate-900 mb-4 font-medium"><?php _e('Our Mission', 'neotech'); ?></h3>
-                    <p class="text-slate-700 leading-relaxed">
-                        <?php _e('To empower businesses with strategic IT consulting that transforms technology from a cost center into a competitive advantage. We deliver honest, vendor-neutral guidance that puts our clients\' interests first.', 'neotech'); ?>
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                    <h3 class="text-lg font-medium text-slate-900 mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                        <?php _e("We don't implement", 'neotech'); ?>
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        <?php _e('We have no incentive to recommend complex solutions that require extended projects.', 'neotech'); ?>
                     </p>
                 </div>
-                <div class="bg-white rounded-2xl p-8 border border-slate-200">
-                    <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl text-slate-900 mb-4 font-medium"><?php _e('Our Vision', 'neotech'); ?></h3>
-                    <p class="text-slate-700 leading-relaxed">
-                        <?php _e('To be the most trusted IT consulting partner for businesses worldwide, known for our technical excellence, integrity, and commitment to delivering measurable results.', 'neotech'); ?>
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                    <h3 class="text-lg font-medium text-slate-900 mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                        <?php _e("We don't sell products", 'neotech'); ?>
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        <?php _e('We have no inventory, no licenses, no commissions. We are purely vendor-neutral.', 'neotech'); ?>
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                    <h3 class="text-lg font-medium text-slate-900 mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                        <?php _e("We don't provide managed services", 'neotech'); ?>
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        <?php _e('We have no recurring revenue dependent on ongoing operational relationships.', 'neotech'); ?>
+                    </p>
+                </div>
+                <div class="bg-sky-50 p-8 rounded-2xl border border-sky-100">
+                    <h3 class="text-lg font-medium text-sky-900 mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <?php _e("Our only product is clarity", 'neotech'); ?>
+                    </h3>
+                    <p class="text-sky-800 text-sm">
+                        <?php _e('We succeed when you make an informed decision—regardless of which option you choose.', 'neotech'); ?>
                     </p>
                 </div>
             </div>
@@ -82,118 +81,112 @@ get_header();
     </section>
 
     <!-- Our Values -->
-    <section class="py-16 px-6">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl text-slate-900 mb-12 font-light text-center"><?php _e('Our Values', 'neotech'); ?></h2>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="text-center p-6">
-                    <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <svg class="w-8 h-8 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                        </svg>
+    <section class="py-20 px-6 bg-slate-50 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-light text-slate-900 mb-12 text-center"><?php _e('Our Values', 'neotech'); ?></h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Independence -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4 text-slate-700">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                     </div>
-                    <h4 class="text-lg font-medium text-slate-900 mb-2"><?php _e('Integrity', 'neotech'); ?></h4>
-                    <p class="text-slate-600 text-sm"><?php _e('Honest, transparent advice you can trust', 'neotech'); ?></p>
+                    <h3 class="font-medium text-slate-900 mb-2"><?php _e('Independence', 'neotech'); ?></h3>
+                    <p class="text-sm text-slate-600 leading-relaxed"><?php _e('We maintain strict separation from vendors. Recommendations based solely on your requirements.', 'neotech'); ?></p>
                 </div>
-                <div class="text-center p-6">
-                    <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <svg class="w-8 h-8 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                        </svg>
+
+                <!-- Structure -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4 text-slate-700">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
                     </div>
-                    <h4 class="text-lg font-medium text-slate-900 mb-2"><?php _e('Excellence', 'neotech'); ?></h4>
-                    <p class="text-slate-600 text-sm"><?php _e('Highest standards in everything we do', 'neotech'); ?></p>
+                    <h3 class="font-medium text-slate-900 mb-2"><?php _e('Structure', 'neotech'); ?></h3>
+                    <p class="text-sm text-slate-600 leading-relaxed"><?php _e('Documented frameworks, not verbal opinions. Every recommendation traceable to evidence.', 'neotech'); ?></p>
                 </div>
-                <div class="text-center p-6">
-                    <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <svg class="w-8 h-8 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                        </svg>
+
+                <!-- Transparency -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4 text-slate-700">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
                     </div>
-                    <h4 class="text-lg font-medium text-slate-900 mb-2"><?php _e('Partnership', 'neotech'); ?></h4>
-                    <p class="text-slate-600 text-sm"><?php _e('Your success is our success', 'neotech'); ?></p>
+                    <h3 class="font-medium text-slate-900 mb-2"><?php _e('Transparency', 'neotech'); ?></h3>
+                    <p class="text-sm text-slate-600 leading-relaxed"><?php _e('We state limitations upfront. We disclose any potential conflicts or referral fees clearly.', 'neotech'); ?></p>
                 </div>
-                <div class="text-center p-6">
-                    <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <svg class="w-8 h-8 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                        </svg>
+
+                <!-- Integrity -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4 text-slate-700">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>
                     </div>
-                    <h4 class="text-lg font-medium text-slate-900 mb-2"><?php _e('Results', 'neotech'); ?></h4>
-                    <p class="text-slate-600 text-sm"><?php _e('Focused on measurable outcomes', 'neotech'); ?></p>
+                    <h3 class="font-medium text-slate-900 mb-2"><?php _e('Integrity', 'neotech'); ?></h3>
+                    <p class="text-sm text-slate-600 leading-relaxed"><?php _e('We provide the right advice, even when it’s not what clients want to hear.', 'neotech'); ?></p>
+                </div>
+
+                <!-- Clarity -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4 text-slate-700">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="font-medium text-slate-900 mb-2"><?php _e('Clarity', 'neotech'); ?></h3>
+                    <p class="text-sm text-slate-600 leading-relaxed"><?php _e('Complex decisions made understandable. Trade-offs explained in business terms.', 'neotech'); ?></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Info -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-4xl mx-auto border border-slate-200 rounded-3xl p-8 md:p-12">
+            <h2 class="text-2xl font-light text-slate-900 mb-8"><?php _e('Company Information', 'neotech'); ?></h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div>
+                        <span class="block text-xs uppercase text-slate-400 tracking-wider font-semibold mb-1"><?php _e('Legal Identity', 'neotech'); ?></span>
+                        <p class="text-slate-800">NeoTechnology Solutions LLC</p>
+                    </div>
+                    <div>
+                         <span class="block text-xs uppercase text-slate-400 tracking-wider font-semibold mb-1"><?php _e('Jurisdiction', 'neotech'); ?></span>
+                        <p class="text-slate-800"><?php _e('State of Wyoming, United States', 'neotech'); ?></p>
+                    </div>
+                    <div>
+                         <span class="block text-xs uppercase text-slate-400 tracking-wider font-semibold mb-1"><?php _e('Established', 'neotech'); ?></span>
+                        <p class="text-slate-800">2020</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div>
+                        <span class="block text-xs uppercase text-slate-400 tracking-wider font-semibold mb-1"><?php _e('Service Area', 'neotech'); ?></span>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            <?php _e('We serve clients in Saudi Arabia, the Gulf Cooperation Council (GCC), and internationally. Engagements are conducted remotely with in-person sessions available for GCC-based clients.', 'neotech'); ?>
+                        </p>
+                    </div>
+                    <div>
+                         <span class="block text-xs uppercase text-slate-400 tracking-wider font-semibold mb-1"><?php _e('Operating Hours', 'neotech'); ?></span>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            <?php _e('Sunday - Thursday, 9:00 AM - 5:00 PM (Arabia Standard Time). We accommodate client time zones for scheduled sessions.', 'neotech'); ?>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="py-16 px-6 bg-slate-900 text-white">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl mb-12 font-light text-center"><?php _e('Why Choose NeoTechnology Solutions?', 'neotech'); ?></h2>
-            <div class="grid sm:grid-cols-2 gap-8">
-                <div class="flex gap-4">
-                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                    </div>
-                    <div>
-                        <h4 class="font-medium mb-2"><?php _e('Certified Professionals', 'neotech'); ?></h4>
-                        <p class="text-slate-400 text-sm"><?php _e('AWS, Azure, and GCP certified consultants with proven expertise.', 'neotech'); ?></p>
-                    </div>
-                </div>
-                <div class="flex gap-4">
-                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                    </div>
-                    <div>
-                        <h4 class="font-medium mb-2"><?php _e('Vendor Neutral', 'neotech'); ?></h4>
-                        <p class="text-slate-400 text-sm"><?php _e('We recommend solutions based on your needs, not vendor commissions.', 'neotech'); ?></p>
-                    </div>
-                </div>
-                <div class="flex gap-4">
-                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                    </div>
-                    <div>
-                        <h4 class="font-medium mb-2"><?php _e('Proven Track Record', 'neotech'); ?></h4>
-                        <p class="text-slate-400 text-sm"><?php _e('100+ successful projects across diverse industries.', 'neotech'); ?></p>
-                    </div>
-                </div>
-                <div class="flex gap-4">
-                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                    </div>
-                    <div>
-                        <h4 class="font-medium mb-2"><?php _e('24/7 Support', 'neotech'); ?></h4>
-                        <p class="text-slate-400 text-sm"><?php _e('Round-the-clock support for critical consulting engagements.', 'neotech'); ?></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-16 px-6">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl text-slate-900 mb-6 font-light"><?php _e('Ready to Get Started?', 'neotech'); ?></h2>
-            <p class="text-slate-600 mb-8 leading-relaxed">
-                <?php _e('Let\'s discuss how NeoTechnology Solutions can help your business achieve its technology goals.', 'neotech'); ?>
+    <!-- CTA -->
+    <section class="py-24 px-6 bg-slate-900 text-white text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-light mb-6"><?php _e('Work With Us', 'neotech'); ?></h2>
+            <p class="text-lg text-slate-300 mb-10">
+                <?php _e('If you’re facing a technology decision that would benefit from independent analysis, we’d welcome a conversation.', 'neotech'); ?>
             </p>
-            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-full text-sm font-medium hover:bg-slate-800 transition-all">
-                <?php _e('Request a Discussion', 'neotech'); ?>
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
+            <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="inline-flex items-center justify-center px-8 py-4 bg-sky-500 text-white rounded-full font-medium text-lg hover:bg-sky-400 transition-colors shadow-lg">
+                <?php _e('Request a Decision Session', 'neotech'); ?>
             </a>
         </div>
     </section>
+
 </main>
 
 <?php

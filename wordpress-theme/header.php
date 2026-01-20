@@ -71,6 +71,9 @@ $lang = $is_rtl ? 'ar' : 'en';
                     <a href="<?php echo esc_url(home_url('/#what-you-receive')); ?>" class="text-slate-700 hover:text-slate-900 transition-colors text-sm font-medium">
                         <?php _e('Deliverables', 'neotech'); ?>
                     </a>
+                    <a href="<?php echo esc_url(home_url('/about/')); ?>" class="text-slate-700 hover:text-slate-900 transition-colors text-sm font-medium">
+                        <?php _e('About', 'neotech'); ?>
+                    </a>
                     <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="text-slate-700 hover:text-slate-900 transition-colors text-sm font-medium">
                         <?php _e('Contact', 'neotech'); ?>
                     </a>
@@ -115,6 +118,9 @@ $lang = $is_rtl ? 'ar' : 'en';
                 </a>
                 <a href="<?php echo esc_url(home_url('/#what-you-receive')); ?>" class="block py-2 text-slate-700 hover:text-slate-900 text-base font-medium">
                     <?php _e('Deliverables', 'neotech'); ?>
+                </a>
+                <a href="<?php echo esc_url(home_url('/about/')); ?>" class="block py-2 text-slate-700 hover:text-slate-900 text-base font-medium">
+                    <?php _e('About', 'neotech'); ?>
                 </a>
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="block py-2 text-slate-700 hover:text-slate-900 text-base font-medium">
                     <?php _e('Contact', 'neotech'); ?>
