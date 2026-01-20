@@ -14,7 +14,9 @@
       "Bash(npx stylelint:*)",
       "Bash(php -l:*)",
       "Bash(gh repo create:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(tree:*)"
     ]
   }
 }
